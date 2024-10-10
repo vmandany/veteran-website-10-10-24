@@ -175,4 +175,10 @@ li {
     text-align: left;
 }
 
-
+#about-section{
+    background: none;
+    background: url('images/deployment.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
