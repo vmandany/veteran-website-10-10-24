@@ -1,13 +1,15 @@
+/* Existing CSS Styles - Ensuring Consistency */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
     background: linear-gradient(to bottom, #FFFFFF, #4C91EC);
-    height: 100%;
     color: #ffffff;
 }
+
 header {
-    background-color: #1c66df;
+    background-color: #1c66df; /* Updated Blue Color */
     padding: 10px 0;
 }
 
@@ -15,7 +17,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; /* Center content horizontally */
 }
 
 .logo {
@@ -29,6 +31,8 @@ header {
     font-size: 24px;
     font-weight: bold;
 }
+
+/* Hide logo on small screens */
 @media screen and (max-width: 600px) {
     .logo {
         display: none;
@@ -81,8 +85,9 @@ header {
     background-color: #073D94;
 }
 
+/* Hamburger button styles */
 .hamburger {
-    display: none;
+    display: none; /* Hidden by default */
     cursor: pointer;
     flex-direction: column;
     align-items: center;
@@ -97,39 +102,43 @@ header {
     transition: all 0.3s;
 }
 
+/* Media Query for Small Screens */
+/* Ensure this media query section is included in your CSS file */
 @media screen and (max-width: 600px) {
     .logo {
-        display: none;
+        display: none; /* Hide logo on small screens */
     }
 
+    /* Make sure the hamburger menu is visible */
     .hamburger {
-        display: flex;
-        margin-right: auto;
+        display: flex; /* Display hamburger menu on small screens */
+        margin-right: auto; /* Align to the left */
     }
 
     .nav-links {
-        display: none; 
-        flex-direction: column;
+        display: none; /* Keep hidden until hamburger is clicked */
+        flex-direction: column; /* Stack items vertically */
         position: absolute;
         top: 40px;
-        left: 0;
-        width: auto;
-        background-color: #1c66df;
-        text-align: left;
-        padding-left: 0px;
+        left: 0; /* Align menu items to the left side */
+        width: auto; /* Adjust width to avoid full-width centering */
+        background-color: #1c66df; /* Background color for the menu */
+        text-align: left; /* Align text to the left */
+        padding-left: 0px; /* Add padding for spacing */
     }
 
     .nav-links li {
-        width: 100%;
+        width: 100%; /* Full width for list items */
     }
 
+    /* Align the drop-down menu to open to the right */
     .dropdown-content {
-        left: 100%;
+        left: 100%; /* Position drop-downs to the right of their parent */
         top: 0;
     }
 
     .nav-links.active {
-        display: flex;
+        display: flex; /* Show the menu when active */
     }
 }
 
@@ -141,7 +150,7 @@ section {
 }
 
 h1, h2 {
-    color: #1c66df;
+    color: #1c66df; /* Updated Blue for Headings */
 }
 
 p {
@@ -159,7 +168,7 @@ footer {
     width: 100%;
     background-color: #1c66df;
     text-align: center;
-    padding: 10px;
+    padding: 0 px;
 }
 
 }
@@ -176,10 +185,4 @@ li {
     text-align: left;
 }
 
-#about-section{
-    background: none;
-    background: url('images/deployment.jpg') no-repeat center center fixed;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
-}
+
