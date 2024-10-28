@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #1c66df; /* Updated Blue Color */
-    padding: 10px 0;
+    padding: 1px 1px;
 }
 
 .navbar {
@@ -22,7 +22,7 @@ header {
 
 .logo {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .logo a {
@@ -178,11 +178,16 @@ footer {
 }
 ul {
     color: #000000;
-    text-align: left; 
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
 }
 li {
     color: #000000;
-    text-align: left;
+    text-align: center;
+    padding-left: 0;
+    margin: 0;
 }
 
 
