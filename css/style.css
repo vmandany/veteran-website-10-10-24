@@ -59,7 +59,7 @@ header {
 }
 
 .nav-links a:hover {
-    background-color: #4DC3C9;
+    background-color: #4DC3C9 !important;
 }
 
 .dropdown:hover .dropdown-content {
@@ -82,7 +82,7 @@ header {
 }
 
 .dropdown-content a:hover {
-    background-color: #4DC3C9;
+    background-color: #4DC3C9 !important;
 }
 
 /* Hamburger button styles */
