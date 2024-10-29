@@ -122,7 +122,7 @@ header {
         top: 40px;
         left: 0; /* Align menu items to the left side */
         width: auto; /* Adjust width to avoid full-width centering */
-        background-color: #1c66df; /* Background color for the menu */
+        background-color: #2c2c2c; /* Background color for the menu */
         text-align: left; /* Align text to the left */
         padding-left: 0px; /* Add padding for spacing */
     }
